@@ -1,53 +1,70 @@
-Trabajo Integrador Final
-Desarrollo en React JS
-Consigna
-Crear una aplicación web utilizando React que permita gestionar una lista de tareas. La
-aplicación deberá hacer uso de componentes funcionales, el hook useState para el manejo del
-estado, el hook useEffect para realizar efectos secundarios, y eventos para interactuar con el
-usuario.
-Requerimientos
-Componentes Funcionales:
-○ Componente de Lista de Tareas (TaskList):
-Este componente deberá mostrar la lista de tareas.
-Recibirá como propiedades la lista de tareas y funciones para gestionar eventos
-relacionados con las tareas (por ejemplo, marcar como completada, eliminar, etc.).
-Cada tarea debe representarse mediante un componente TaskItem.
-○ Componente de Tarea (TaskItem):
-Este componente deberá representar individualmente una tarea.
-Mostrará el nombre de la tarea y un botón para completarla.
-Utilizará el estado local para gestionar la apariencia de la tarea (por ejemplo, tachado
-cuando esté completada).
-○ Componente de Formulario (TaskForm):
-Este componente contendrá un formulario para agregar nuevas tareas.
-Utilizará el estado local para gestionar la entrada del usuario y enviará la nueva tarea a
-la lista principal.
-Estado con useState:
-○ Estado Principal (tasks):
-Utilizar el hook useState en el componente principal para gestionar el estado de la lista
-de tareas.
-Cada tarea debe ser un objeto con propiedades como id, nombre, y completada.
-1
-Desarrollador Web con React Js
-○ Efectos con useEffect:
-Efecto de Actualización (useEffect en el componente principal):
-Utilizar useEffect para realizar una acción (por ejemplo, mostrar un mensaje) cuando el
-estado de la lista de tareas cambie.
-Interacción con el Usuario - Eventos:
-○ Eventos en Componente de Lista (TaskList):
-Implementar eventos que permitan al usuario interactuar con cada tarea (marcar
-como completada, eliminar, etc.).
-Estos eventos deberán modificar el estado principal (tasks).
-○ Eventos en Componente de Formulario (TaskForm):
-Implementar eventos para gestionar la entrada del usuario y agregar nuevas tareas a
-la lista.
-Estilo y Diseño:
-Aplicar estilos CSS para mejorar la apariencia de los componentes. Puede utilizar
-bibliotecas como styled-components si lo desea.
-Puntos Extra (Opcionales):
-Implementar la persistencia de datos utilizando localStorage para que las tareas
-persistan incluso después de recargar la página.
-Formato de entrega
-Enviar un archivo .rar o .zip con el siguiente formato: apellido_entregafinal.rar
-Dentro del .rar o .zip se debe enviar el/los archivos de react js, excluyendo la carpeta
-node_modules
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
