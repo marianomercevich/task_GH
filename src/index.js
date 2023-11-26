@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './RegistroForm.css';
 import App from './App';
+import './RegistroForm.css';
+
+//Hola!
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
